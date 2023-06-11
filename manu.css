@@ -1,0 +1,122 @@
+#page__title{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.page_title_text{
+  font-size: 2.2rem;
+  color: var(--black-2);
+}
+@media  (min-width : 768px) {
+  .page_title_text{
+    font-size: 3.6rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* our speacil section start */
+#OurSpecials{
+  padding: 0rem;
+}
+.OurSpecials_title{
+  font-size: 1.8rem;
+  color: var(--black-2);
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.OurSpecials__wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 400px;
+}
+.OurSpecials__item{
+  background-color: var(--lightGreen-1);
+  padding: 1.5rem;
+  border-radius: 12px;  
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+.OurSpecials__item__img img{
+  object-fit: cover;
+}
+.OurSpecials__item__img{
+  border-radius: 12px;
+  overflow: hidden;
+}
+.OurSpecials__item__img, 
+.OurSpecials__item__info{
+  flex: 1;
+}
+.OurSpecials__item__title{
+  font-size: 1.8rem;
+  color: var(--black-1);
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-bottom: 1rem;
+  line-height: 1.2em;
+}
+.ourSpecials__item__price{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--green-1);
+}
+.ourSpecials__item__stars{
+  width: max-content;
+}
+
+@media only screen and (max-width : 722px) {
+  .OurSpecials__wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width : 768px) {
+  .OurSpecials_title{
+    font-size: 2.4rem;
+  }
+  .OurSpecials__wrapper{
+    flex-direction: row;
+    gap: 2rem;
+    max-width:  none;
+  }
+  .OurSpecials__item{
+    padding: 3rem;
+    gap: 3rem;
+  }
+  .OurSpecials__item__title{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .ourSpecials__item__price{
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    width: max-content;
+  }
+}
+
+@media  only screen and (min-width: 1140px) {
+  .OurSpecials__item__img{
+    flex: 4;
+  }
+  .OurSpecials__item__info{
+    flex: 3;
+  }
+}
+
+
+/* our speacil section end */
+
+
+
+#dishGird {
+  padding-bottom: 0rem;
+}
+#last__dishGird {
+  padding-bottom: 10rem;
+}
