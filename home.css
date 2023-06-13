@@ -139,6 +139,8 @@
   color: var(--black-2);
 }
 
+
+
 @media (min-width: 768px) {
   #ourSpeacils {
     padding-top: 15rem;

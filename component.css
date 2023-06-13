@@ -110,6 +110,13 @@
   background: var(--green-1);
 }
 
+.book_btn:hover{
+  color: var(--white-1);
+  background: var(--green-1);
+  transition: color 1s;
+  margin-left: 0.5rem;
+}
+
 /* Media  for btn */
 
 @media only screen and (min-width: 768px) {
