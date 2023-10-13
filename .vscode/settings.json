@@ -40,7 +40,7 @@
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "monospace",
   "workbench.colorTheme": "Andromeda Bordered",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
