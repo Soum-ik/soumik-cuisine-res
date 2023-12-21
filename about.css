@@ -1,0 +1,109 @@
+.outStory__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.outStory_title{
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    color:  var(--black-1);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.outStory_stared{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: var(--black-2);
+    font-weight: 600;
+}
+.outStory_text{
+    font-size: 1.4rem;
+    font-family: 'Raleway';
+    line-height: 1.6em;
+}
+
+@media only screen and (min-width: 768px) {
+    .outStory__wrapper{
+        flex-direction: row;
+        gap: 3rem;
+    }
+    .outStory_info, 
+    .outStory_img{
+        flex: 1;
+    }
+    .outStory_img{
+        max-width: 900px;
+    }
+    .outStory_title{
+        font-size: 3.6rem;
+        margin-bottom: 1rem;
+    }
+    .outStory_stared{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    .outStory_text{
+        font-size: 18px;
+    }
+}
+
+
+/* ourGoal_section start */
+.ourGoal_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.ourGoal_title{
+    font-size: 1.8rem;
+    color:  var(--black-1);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.ourGoal_text {
+    font-size: 1.4rem;
+    font-family: 'Raleway';
+    line-height: 1.6em;
+}
+
+.ourGoal_img_wrapper img{
+    object-fit: cover;
+}
+
+.ourGoal_img_wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row: auto;
+    gap: 1rem;
+}
+.ourGoals_img1{
+    grid-row: 1/3;
+}
+@media only screen and (min-width : 768px) {
+    .ourGoal_title{
+        font-size: 3.6rem;
+
+    }
+    .ourGoal_text {
+        font-size: 1.8rem;
+        font-family: "Raleway";
+        /* margin-bottom: 2rem; */
+        line-height: 1.6em;
+    }
+    .ourGoal_info{
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+/* ourGoal_section end */
+
+
